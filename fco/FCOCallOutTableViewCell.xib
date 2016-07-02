@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleAspectFit" selectionStyle="none" indentationWidth="10" reuseIdentifier="FCOCallOutTableViewCell" rowHeight="60" id="mt8-J7-eWB" customClass="FCOCallOutTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="610" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="mt8-J7-eWB" id="QDf-fl-QwA">
+                <rect key="frame" x="0.0" y="0.0" width="610" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="callout_thumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="t0F-tU-AYq">
+                        <rect key="frame" x="11" y="5" width="50" height="50"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="WaD-Dw-23K"/>
+                            <constraint firstAttribute="height" constant="50" id="tls-G5-KBR"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                <integer key="value" value="5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                        </userDefinedRuntimeAttributes>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Adam CALLS-OUT Kudan for a fight" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Meu-QR-DlH" customClass="NZLabel">
+                        <rect key="frame" x="73" y="7" width="502" height="43"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="43" id="T3n-tB-MlR"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="13"/>
+                        <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="T3n-tB-MlR"/>
+                            </mask>
+                        </variation>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="callout_icon_gray" translatesAutoresizingMaskIntoConstraints="NO" id="H72-W4-gcE">
+                        <rect key="frame" x="577" y="16" width="25" height="25"/>
+                        <animations/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="25" id="aRa-kq-qT9"/>
+                            <constraint firstAttribute="width" constant="25" id="eH8-Gw-UiW"/>
+                        </constraints>
+                    </imageView>
+                </subviews>
+                <animations/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Meu-QR-DlH" secondAttribute="bottom" constant="9" id="1SN-vH-2ze"/>
+                    <constraint firstItem="t0F-tU-AYq" firstAttribute="leading" secondItem="QDf-fl-QwA" secondAttribute="leading" constant="11" id="5fJ-vM-C9V"/>
+                    <constraint firstItem="t0F-tU-AYq" firstAttribute="top" secondItem="QDf-fl-QwA" secondAttribute="top" constant="5" id="ARh-Tb-xYx"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="t0F-tU-AYq" secondAttribute="bottom" constant="4" id="Poa-Px-gub"/>
+                    <constraint firstItem="H72-W4-gcE" firstAttribute="leading" secondItem="Meu-QR-DlH" secondAttribute="trailing" constant="2" id="btR-gc-NpF"/>
+                    <constraint firstItem="Meu-QR-DlH" firstAttribute="top" secondItem="QDf-fl-QwA" secondAttribute="top" constant="7" id="fAU-VV-djI"/>
+                    <constraint firstAttribute="trailing" secondItem="H72-W4-gcE" secondAttribute="trailing" constant="8" id="gc8-Wb-rcj"/>
+                    <constraint firstItem="Meu-QR-DlH" firstAttribute="leading" secondItem="t0F-tU-AYq" secondAttribute="trailing" constant="12" id="muY-Sq-M9L"/>
+                    <constraint firstItem="H72-W4-gcE" firstAttribute="leading" secondItem="Meu-QR-DlH" secondAttribute="trailing" constant="2" id="t0T-Xg-UNy"/>
+                    <constraint firstItem="Meu-QR-DlH" firstAttribute="top" secondItem="QDf-fl-QwA" secondAttribute="topMargin" constant="-1" id="zfB-PK-Q8S"/>
+                    <constraint firstItem="H72-W4-gcE" firstAttribute="top" secondItem="QDf-fl-QwA" secondAttribute="top" constant="16" id="zwc-8S-2Lc"/>
+                </constraints>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="calloutLabel" destination="Meu-QR-DlH" id="s2S-J5-gyX"/>
+                <outlet property="userImageView" destination="t0F-tU-AYq" id="9CQ-pa-rKy"/>
+            </connections>
+            <point key="canvasLocation" x="442" y="1196"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="callout_icon_gray" width="25" height="25"/>
+        <image name="callout_thumbnail" width="159" height="121"/>
+    </resources>
+</document>

@@ -1,0 +1,136 @@
+PODS:
+  - AFNetworking (2.5.3):
+    - AFNetworking/NSURLConnection (= 2.5.3)
+    - AFNetworking/NSURLSession (= 2.5.3)
+    - AFNetworking/Reachability (= 2.5.3)
+    - AFNetworking/Security (= 2.5.3)
+    - AFNetworking/Serialization (= 2.5.3)
+    - AFNetworking/UIKit (= 2.5.3)
+  - AFNetworking/NSURLConnection (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/NSURLSession (2.5.3):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (2.5.3)
+  - AFNetworking/Security (2.5.3)
+  - AFNetworking/Serialization (2.5.3)
+  - AFNetworking/UIKit (2.5.3):
+    - AFNetworking/NSURLConnection
+    - AFNetworking/NSURLSession
+  - ARChromeActivity (1.0.0)
+  - Bolts (1.2.0):
+    - Bolts/AppLinks (= 1.2.0)
+    - Bolts/Tasks (= 1.2.0)
+  - Bolts/AppLinks (1.2.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.2.0)
+  - Crashlytics (3.7.0):
+    - Fabric (~> 1.6.3)
+  - Fabric (1.6.7)
+  - FBSDKCoreKit (4.5.1):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc (= 4.5.1)
+    - FBSDKCoreKit/no-arc (= 4.5.1)
+  - FBSDKCoreKit/arc (4.5.1):
+    - Bolts (~> 1.1)
+  - FBSDKCoreKit/no-arc (4.5.1):
+    - Bolts (~> 1.1)
+    - FBSDKCoreKit/arc
+  - FBSDKLoginKit (4.5.1):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.5.1):
+    - FBSDKCoreKit
+  - google-plus-ios-sdk (1.7.1)
+  - Google/Core (1.3.2):
+    - GoogleInterchangeUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.1)
+  - Google/SignIn (1.3.2):
+    - Google/Core
+    - GoogleSignIn (~> 2.0)
+  - GoogleAppUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleAuthUtilities (1.0.1):
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleInterchangeUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleNetworkingUtilities (1.0.0):
+    - GoogleSymbolUtilities (~> 1.0)
+  - GoogleSignIn (2.4.0):
+    - GoogleAppUtilities (~> 1.0)
+    - GoogleAuthUtilities (~> 1.0)
+    - GoogleNetworkingUtilities (~> 1.0)
+    - GoogleUtilities (~> 1.0)
+  - GoogleSymbolUtilities (1.0.3)
+  - GoogleUtilities (1.1.0):
+    - GoogleSymbolUtilities (~> 1.0.0)
+  - GUIPlayerView (0.0.4)
+  - IQKeyboardManager (3.2.4)
+  - JMActionSheetDescription (0.4.6)
+  - KINWebBrowser (0.2.5):
+    - ARChromeActivity
+    - TUSafariActivity
+  - MONPromptView (0.0.1)
+  - PureLayout (2.0.6)
+  - RBStoryboardLink (0.1.4)
+  - SCLAlertView-Objective-C (0.7.3)
+  - TDSemiModal (1.0.0)
+  - TUSafariActivity (1.0.4)
+  - VGParallaxHeader (0.0.6):
+    - PureLayout
+
+DEPENDENCIES:
+  - AFNetworking (= 2.5.3)
+  - Crashlytics
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKShareKit
+  - google-plus-ios-sdk (~> 1.7)
+  - Google/SignIn
+  - GUIPlayerView (~> 0.0.4)
+  - IQKeyboardManager
+  - JMActionSheetDescription
+  - KINWebBrowser
+  - MONPromptView (~> 0.0)
+  - RBStoryboardLink (~> 0.1)
+  - SCLAlertView-Objective-C
+  - TDSemiModal (~> 1.0)
+  - VGParallaxHeader
+
+SPEC CHECKSUMS:
+  AFNetworking: e1d86c2a96bb5d2e7408da36149806706ee122fe
+  ARChromeActivity: 40d77445498fded9d32cbf4a41e8585766feffd6
+  Bolts: d176cb1e0012175589e389a9db49b85e27787576
+  Crashlytics: c3a2333dea9e2733d2777f730910321fc9e25c0d
+  Fabric: caf7580c725e64db144f610ac65cd60956911dc7
+  FBSDKCoreKit: f335eaf6865e1e1597dee1debfb533045500da47
+  FBSDKLoginKit: 225cc9a388a92916ee3f3bb14422017b6e44b65b
+  FBSDKShareKit: 642034ac9f30793dfd897851b724bb4281750266
+  Google: 97618e118111b998cce1d8dd1bd98b82301d72db
+  google-plus-ios-sdk: 47adbe03ea904bdb7aa1c0eca282a23c4686e1bc
+  GoogleAppUtilities: c01c6a5671e9da8b9d690fdaec5959d6c2aac699
+  GoogleAuthUtilities: 049ffd3a297cdffd271451b82fd4e75304f15ef3
+  GoogleInterchangeUtilities: d7f7174176fbcf9710f696f1acebad4dbd98ac03
+  GoogleNetworkingUtilities: 292992ab31b7b4ba32809a0e8b40e324cdfb2c0c
+  GoogleSignIn: 79929b51e6299c69f1197bbd9c7a1367d523ecd8
+  GoogleSymbolUtilities: 82ad9f93d3615244b3f4ce440f5ab2515e8b4f56
+  GoogleUtilities: 8ed9134debe11719097881711464752900668f10
+  GUIPlayerView: 659256b3aefdd5d1041782ea40faaee250429f41
+  IQKeyboardManager: 555b1231fefafb21b19278d7cca72986a27b748b
+  JMActionSheetDescription: 932a8321460dd23da8386be768d7f027b9246464
+  KINWebBrowser: 456f83fa8f57cbd3bcea38c8625c2ce03ec449f2
+  MONPromptView: 18d8b2361aed8d2140c8727f4a8460ebfe09d8e7
+  PureLayout: f25f0bb904d5ccfe6e31da3cb869185259f02e0d
+  RBStoryboardLink: 0faae84aea6a5e8716c4469984d847d958c3fcb3
+  SCLAlertView-Objective-C: 4bf9a07c8a8d1840e5174e643e16bc032239914d
+  TDSemiModal: f229d756bc3bf1a22767777bcd2e2e96751158fc
+  TUSafariActivity: afc55a00965377939107ce4fdc7f951f62454546
+  VGParallaxHeader: 1213aba58c9b0aea84f9e81ad526fde57aa4fe48
+
+COCOAPODS: 0.39.0

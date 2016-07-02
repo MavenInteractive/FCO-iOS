@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="FCOFooterViewComment">
+            <rect key="frame" x="0.0" y="0.0" width="567" height="50"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="callout_thumbnail" translatesAutoresizingMaskIntoConstraints="NO" id="BnC-mo-agc">
+                    <rect key="frame" x="8" y="4" width="48" height="42"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="42" id="6In-RO-y9V"/>
+                        <constraint firstAttribute="width" constant="48" id="ADQ-8S-Sjq"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="clipsToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </imageView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KWP-yc-wa7">
+                    <rect key="frame" x="66" y="8" width="493" height="34"/>
+                    <subviews>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Write a comment..." minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cWh-gx-X08">
+                            <rect key="frame" x="8" y="0.0" width="449" height="34"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="34" id="dNI-2d-93P"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                        <button hidden="YES" opaque="NO" alpha="0.69999999999999973" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MZL-nv-X8v">
+                            <rect key="frame" x="462" y="5" width="24" height="23"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="23" id="RBR-c4-5te"/>
+                                <constraint firstAttribute="width" constant="24" id="nqy-0L-Bnh"/>
+                            </constraints>
+                            <state key="normal" backgroundImage="detail_btn_smiley">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="smileyButtonPressed:" destination="iN0-l3-epB" eventType="touchUpInside" id="tb3-fa-vMe"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" red="0.94590435606060608" green="0.94590435606060608" blue="0.94590435606060608" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="34" id="1qG-Bt-p1s"/>
+                        <constraint firstItem="cWh-gx-X08" firstAttribute="top" secondItem="KWP-yc-wa7" secondAttribute="top" id="34v-Qp-i7E"/>
+                        <constraint firstItem="MZL-nv-X8v" firstAttribute="top" secondItem="KWP-yc-wa7" secondAttribute="top" constant="5" id="9ig-TT-090"/>
+                        <constraint firstItem="cWh-gx-X08" firstAttribute="leading" secondItem="KWP-yc-wa7" secondAttribute="leading" constant="8" id="Btk-Th-kyW"/>
+                        <constraint firstItem="MZL-nv-X8v" firstAttribute="leading" secondItem="cWh-gx-X08" secondAttribute="trailing" constant="5" id="Ff8-YC-NNd"/>
+                        <constraint firstAttribute="trailing" secondItem="MZL-nv-X8v" secondAttribute="trailing" constant="7" id="l0u-bd-Nva"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                            <integer key="value" value="2"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="boolean" keyPath="layer.maskToBounds" value="YES"/>
+                    </userDefinedRuntimeAttributes>
+                </view>
+                <imageView userInteractionEnabled="NO" alpha="0.5499999999999996" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="rL7-vh-JVe">
+                    <rect key="frame" x="0.0" y="-1" width="567" height="1"/>
+                    <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="1" id="sih-rs-mO0"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="KWP-yc-wa7" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="8" id="E3g-IN-A7I"/>
+                <constraint firstItem="BnC-mo-agc" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="SlB-e7-5lC"/>
+                <constraint firstAttribute="trailing" secondItem="rL7-vh-JVe" secondAttribute="trailing" id="Thu-0b-Th8"/>
+                <constraint firstItem="KWP-yc-wa7" firstAttribute="leading" secondItem="BnC-mo-agc" secondAttribute="trailing" constant="10" id="byj-6f-iFp"/>
+                <constraint firstAttribute="bottom" secondItem="KWP-yc-wa7" secondAttribute="bottom" constant="8" id="fng-QN-bD9"/>
+                <constraint firstItem="BnC-mo-agc" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="4" id="pPg-oC-dvl"/>
+                <constraint firstItem="rL7-vh-JVe" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" constant="-1" id="saS-o7-GQ3"/>
+                <constraint firstAttribute="trailing" secondItem="KWP-yc-wa7" secondAttribute="trailing" constant="8" id="tSn-D7-whw"/>
+                <constraint firstItem="rL7-vh-JVe" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="w3e-nq-hW4"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="commentTextField" destination="cWh-gx-X08" id="E6j-4I-SIx"/>
+                <outlet property="smileyButton" destination="MZL-nv-X8v" id="xOg-7y-Lsk"/>
+                <outlet property="userImageView" destination="BnC-mo-agc" id="mfB-Jo-9uC"/>
+            </connections>
+            <point key="canvasLocation" x="273.5" y="-18"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="callout_thumbnail" width="159" height="121"/>
+        <image name="detail_btn_smiley" width="23" height="23"/>
+    </resources>
+</document>
